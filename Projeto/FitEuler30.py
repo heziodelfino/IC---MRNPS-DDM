@@ -17,8 +17,8 @@ theta = np.zeros(N)
 omega = np.zeros(N)
 
 # condições iniciais
-theta[0] = np.radians(-150)  # posição inicial (rad)
-omega[0] = 0.0               # velocidade angular inicial (rad/s)
+theta[0] = np.radians(-150)  
+omega[0] = 0.0              
 
 # integração por Euler explícito
 for i in range(N-1):
@@ -39,4 +39,5 @@ plt.title("Pêndulo amortecido (Euler)")
 plt.legend()
 plt.grid(True)
 plt.show()
+
 
