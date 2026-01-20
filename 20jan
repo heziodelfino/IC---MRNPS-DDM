@@ -1,4 +1,0 @@
-touch 20jan/.gitkeep
-git 20jan/.gitkeep
-git commit -m "Cria pasta 20jan"
-git push
